@@ -27,7 +27,7 @@ function Header() {
                         
                         <button>
                             <a href="" className="btn github-btn">
-                                <i className="fa fa-github fa-2x"></i>Github
+                                <i className="fas fa-github fa-2x"></i>Github
                             </a>
                         </button>
                     </Fade>
