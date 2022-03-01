@@ -1,0 +1,23 @@
+#about {
+    background: #01072e;
+    padding-top: 96px;
+    padding-bottom: 66px;
+ }
+ 
+ #about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+ }
+ #about p {
+    line-height: 30px;
+    color: rgb(228, 225, 225);
+ }
+ #about .profile-pic {
+    width: 120px;
+    height: 120px;
+    padding:10px;
+    border-radius:15%;
+ }
+ 
+ 
