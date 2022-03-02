@@ -18,7 +18,7 @@ function Header() {
                     </Fade>
                     < hr /> {/* <horizontal rule> used to seperate content */}
                     <Fade bottom duration={2000}>
-                    
+                        
                         <button style={{marginRight:"20px"}}>
                             <a href="" className="btn project-btn">
                                 <i className="fa fa-book fa-2x"></i>Projects
@@ -30,6 +30,7 @@ function Header() {
                                 <i className="fas fa-github fa-2x"></i>Github
                             </a>
                         </button>
+
                     </Fade>
                 </div>
             </div>
