@@ -4,16 +4,17 @@ import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
+import React from 'react';
 
 const App = () => {
   return (
-    <div className="App">
+    <React.Fragment>
       < Header />
       < About />
       < Portfolio />
       < Skills />
       < Footer />
-    </div>
+    </React.Fragment>
   );
 }
 
