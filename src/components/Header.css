@@ -19,7 +19,8 @@ header .banner-text {
 header .banner-text h1 {
 	font: 90px/1.4em "Kaushan Script", cursive; 
 	color: rgb(228, 240, 240);
-	letter-spacing: -2px;
+	/* letter-spacing: -1px; */
+	letter-spacing: 1px;
 	margin: 0 auto 18px auto;
 	text-transform: none;
 }

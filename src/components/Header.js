@@ -9,7 +9,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <header>
+        <header id="home">
             <Container fluid>
                 <Row>
                     <div className="banner-text">

@@ -37,7 +37,7 @@ function About() {
                         </Col>
                         <Col>
                             <div className="download">
-                                <Button href="" variant="custom" size="sm" >
+                                <Button href="" id="resume" variant="custom" size="sm" >
                                     Resume Download
                                 </Button>
                             </div>

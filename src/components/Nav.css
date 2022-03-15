@@ -1,0 +1,17 @@
+/* .item-links{
+    height: 10px;
+} */
+
+.nav-section{ /*this is adjusting the text only*/
+    display: inline;
+    
+
+}
+.nav-links{
+    height: 80px;
+    opacity:1;
+}
+
+nav {
+    text-align: center; 
+}
