@@ -23,13 +23,13 @@ const Header = () => {
                         <Fade bottom duration={2000}>
 
                             <button style={{ marginRight: "20px" }}>
-                                <a href="" className="btn project-btn">
+                                <a href="#portfolio" className="btn project-btn">
                                     <FontAwesomeIcon icon={faCode} size="xl" style={{ marginRight: "10px" }}/>Projects
                                 </a>
                             </button>
 
                             <button>
-                                <a href="" className="btn github-btn">
+                                <a href="https://github.com/" className="btn github-btn">
                                     <FontAwesomeIcon icon={faGithub} size="xl" style={{ marginRight: "10px" }} />Github
                                 </a>
                             </button>

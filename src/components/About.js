@@ -2,6 +2,8 @@ import React from 'react';
 import Fade from "react-reveal";
 import profilePic from "../assets/favicon.png"
 import { Button, Container, Col, Row } from 'react-bootstrap'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import './About.css';
 
 function About() {
@@ -25,17 +27,13 @@ function About() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col xs={6} md={4}>
                             <div className="contact-details">
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>Lisa Harrison</span>
-                                    <br />
-                                    <span>EMAIL</span>
-                                </p>
+                                <h2>Contact Me:</h2>
+                                <p>lmharrison0810@gmail.com</p>
                             </div>
                         </Col>
-                        <Col>
+                        <Col xs={12} md={8}>
                             <div className="download">
                                 <Button href="" id="resume" variant="custom" size="sm" >
                                     Resume Download
