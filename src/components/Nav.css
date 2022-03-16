@@ -1,17 +1,14 @@
-/* .item-links{
-    height: 10px;
-} */
-
-.nav-section{ /*this is adjusting the text only*/
-    display: inline;
-    
-
-}
-.nav-links{
-    height: 80px;
-    opacity:1;
+.justify-content-center{
+    background-color: black;
+    height:20px;
+    letter-spacing: 2px;
 }
 
-nav {
-    text-align: center; 
+.nav-items{
+    color:white;
+}
+
+.nav-home{
+    color:rgb(202, 94, 21);
+    font-weight:bold;
 }

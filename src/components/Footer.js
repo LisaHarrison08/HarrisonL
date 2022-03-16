@@ -12,7 +12,7 @@ function Footer() {
                     </div>
                     <div className="col-4 text-center">
                         <a role="button" className="btn btn-link" href="tel:+12065551234"><i className="fa fa-phone" /> 1-206-555-1234</a><br />
-                        <a role="button" className="btn btn-link" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> emailhere@gmail.co</a>
+                        <a role="button" className="btn btn-link" id="contact" href="mailto:notreal@notreal.co"><i className="fa fa-envelope-o" /> emailhere@gmail.co</a>
                     </div>
                 </div>
             {/* </div> */}
