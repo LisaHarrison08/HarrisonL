@@ -8,6 +8,10 @@
     color:white;
 }
 
+.nav-items:hover{
+    color:rgb(81, 136, 110);
+}
+
 .nav-home{
     color:rgb(202, 94, 21);
     font-weight:bold;

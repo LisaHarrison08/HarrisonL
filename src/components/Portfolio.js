@@ -3,8 +3,10 @@ import Fade from "react-reveal";
 import projectPic from "../assets/projectLoading2.png"
 import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap'
 import './Portfolio.css';
+// import data from "./data"
 
 function Portfolio() {
+    
     return (
         <Container id="portfolio">
             <h1>CHECK OUT SOME OF MY WORK.</h1>

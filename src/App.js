@@ -7,7 +7,9 @@ import Skills from './components/Skills'
 import Footer from './components/Footer'
 import React from 'react';
 
+
 const App = () => {
+  
   return (
     <React.Fragment>
       <Navigation />
