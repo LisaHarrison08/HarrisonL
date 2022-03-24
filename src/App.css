@@ -152,6 +152,12 @@ width: 30vw;
 height: 10vh;
 }
 
+/* #portfolio .card--image {
+    width:100%;
+    height:200px;
+    border-radius: 5px; 
+} */
+
 /* Skills Section */
 #skills {
     background: #f5f6f8;

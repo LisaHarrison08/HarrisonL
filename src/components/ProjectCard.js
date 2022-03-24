@@ -8,7 +8,7 @@ function ProjectCard(props) {
             <Fade left duration={1000} distance="50px">
                 <Row>
                     <Col>
-                        <Card>
+                        <Card className="card--image">
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/projects/" + props.project.image} />
                             {/* <Card.Body>
                                 <Card.Title>{props.project.title}</Card.Title>
