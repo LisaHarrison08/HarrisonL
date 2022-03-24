@@ -1,4 +1,190 @@
+/* Header */
 
+header {
+	position: relative;
+	height: 900px;
+	min-height: 500px;
+	width: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(./assets/aurora.jpg) no-repeat top center;
+	background-size: cover !important;
+	text-align: center;
+	overflow: hidden;
+}
 
+header .banner-text {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
+header .banner-text h1 {
+	font: 90px/1.4em "Kaushan Script", cursive; 
+	color: rgb(228, 240, 240);
+	/* letter-spacing: -1px; */
+	letter-spacing: 2px;
+	margin: 0 auto 18px auto;
+	text-transform: none;
+}
 
+header .banner-text h3 {
+	font: 18px/1.8em 'Open Sans', sans-serif;
+	color: rgb(228, 240, 240);
+	margin: 0 auto;
+	text-transform: none;
+	/* width: 80%; */
+}
+
+header .banner-text hr {
+	width: 40%;
+	margin: 18px auto 24px auto;
+	color: antiquewhite;
+}
+
+button{
+	/* display: inline-block; */
+	/* text-decoration: none; */
+	/* letter-spacing: 0; */
+	padding: 0;
+	margin:0;
+	border-radius:5%;
+	border: none;
+	cursor: pointer;
+	height: auto;
+}
+
+.project-btn {
+	color:white;
+	background-color: #2bac96;	
+}
+.github-btn{
+	color:white;
+	background-color:rgb(70, 75, 78);
+}
+
+/* Navigation */
+.justify-content-center{
+    background-color: black;
+    height:20px;
+    letter-spacing: 2px;
+}
+
+.nav-items{
+    color:white;
+}
+
+.nav-items:hover{
+    color:rgb(81, 136, 110);
+}
+
+.nav-home{
+    color:rgb(202, 94, 21);
+    font-weight:bold;
+}
+
+/* About Section */
+
+#about {
+    background: #01072e;
+    padding-top: 160px;
+    padding-bottom: 60px;
+    height: 700px;
+     min-height: 500px;
+     width: 100%;
+ }
+  
+ #about h2 {
+    font: 24px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+    letter-spacing:2px;
+ }
+ 
+ #about p {
+    font-size:18px;
+    line-height: 30px;
+    color: rgb(228, 225, 225);
+    letter-spacing:2px;
+ }
+ 
+ #about .profile-pic {
+    width: 180px;
+    height: 180px;
+    padding:10px;
+    margin:20px;
+    border-radius:15%;
+ }
+  
+ 
+ #about .btn-custom {
+    width: 300px;
+    margin-top: 20px;
+    background-color: aqua;
+ }
+ 
+ #about .contact-details{
+       text-align: left;
+       padding-left:30px;
+ }
+ 
+ #about .download{
+    text-align: center;
+ }
+
+ /* Portfolio Section */
+ #portfolio {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#portfolio h1 {
+	font: 15px/24px 'opensans-semibold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 48px;
+	color: #95a3a3;
+}
+
+#portfolio .card--content{
+border-radius: 55;
+width: 30vw;
+height: 10vh;
+}
+
+/* Skills Section */
+#skills {
+    background: #f5f6f8;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    height: 700px;
+     min-height: 500px;
+     width: 100%;
+ }
+
+#skills h2 {
+	font: 15px 'opensans-bold', sans-serif;
+	color: #aca5a5;
+	letter-spacing: 2px;
+	font-weight: normal;
+    margin-top: 12px;
+}
+
+/* Footer Section */
+
+.site-footer {
+	/* background-color: rgb(233, 223, 223); */
+	background-color: black;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.icon-link{
+	padding-left:80px;
+	color:white;
+}
+
+.icon-link:hover{
+	color:#2bac96;
+}

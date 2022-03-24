@@ -4,7 +4,7 @@ import profilePic from "../assets/profilePic.jpg"
 import { Button, Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
-import './About.css';
+// import './About.css';
 
 function About() {
     return (
@@ -34,8 +34,8 @@ function About() {
                             </div>
                         </Col>
                         <Col xs={12} md={8}>
-                            <div className="download">
-                                <Button href="" id="resume" variant="custom" size="sm" >
+                            <div className="download" id="resume">
+                                <Button href="" variant="custom" size="sm" >
                                 <FontAwesomeIcon icon={faArrowDown} size="xl" style={{ marginRight: "10px" }} /> Resume Download
                                 </Button>
                             </div>

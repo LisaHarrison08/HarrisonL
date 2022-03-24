@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+// import './Footer.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -10,7 +10,7 @@ function Footer() {
             {/* <div className="container"> */}
             <div className="row">
                 <div className="col text-center">
-                    <a href="mailto:l----@gmail.com" className="icon-link">
+                    <a href="mailto:l----@gmail.com" id="contact" className="icon-link">
                         <FontAwesomeIcon icon={faEnvelope} size="3x" />
                     </a>
                     <a href="https://github.com/" className="icon-link">

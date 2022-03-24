@@ -2,7 +2,7 @@ import React from "react"
 import Slide from "react-reveal";
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import { Container, Col, Row } from "react-bootstrap"
-import './Skills.css';
+// import './Skills.css';
 
 function Skills() {
     return (

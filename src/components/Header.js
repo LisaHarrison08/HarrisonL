@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row } from "react-bootstrap"
-import './Header.css';
+// import './Header.css';
 
 
 const Header = () => {
