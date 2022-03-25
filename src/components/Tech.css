@@ -1,0 +1,16 @@
+#tech {
+	background: #f5f6f8;
+	padding-top: 76px;
+	padding-bottom: 76px;
+	height: 700px;
+	min-height: 500px;
+	width: 100%;
+}
+
+.tech--content h1 {
+	font: 'opensans-bold', sans-serif;
+	font-size: 20px;
+	color: rgb(24, 23, 23);
+	margin-bottom: 12px;
+	letter-spacing: 2px;
+}
