@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import TechCard from './TechCard'
-import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap'
+import { Container, Col, Row } from 'react-bootstrap'
 // import './Tech.css';
 import Techdata from "../Techdata"
 
@@ -16,7 +16,7 @@ function Tech() {
                         <hr />
                     </Col>
                     <Col md={8}>
-                        <p>There are so many choices, and I'm always interested in playing around with new technologies, but these are the ones that I delve into regularly</p>
+                        <p>There are so many choices, and I'm always interested in playing around with new technologies, but these are the ones that I dive into regularly</p>
                     </Col>
                 </Row>
 

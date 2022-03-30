@@ -1,7 +1,6 @@
 import React, {useState} from "react"
 import ProjectCard from './ProjectCard'
 import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap'
-// import './Portfolio.css';
 import data from "../data"
 
 function Portfolio() {

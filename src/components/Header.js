@@ -5,6 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row } from "react-bootstrap"
 // import './Header.css';
+import video from "../assets/video/aurora.mp4"
 
 
 const Header = () => {
@@ -12,6 +13,9 @@ const Header = () => {
         <header id="home">
             <Container fluid>
                 <Row>
+                    <video autoPlay loop muted>
+                        <source src={video} type="video/mp4" />
+                    </video>
                     <div className="banner-text">
                         <Fade bottom>
                             <h1>Lisa Harrison</h1>
@@ -24,7 +28,7 @@ const Header = () => {
 
                             <button style={{ marginRight: "20px" }}>
                                 <a href="#portfolio" className="btn project-btn">
-                                    <FontAwesomeIcon icon={faCode} size="xl" style={{ marginRight: "10px" }}/>Projects
+                                    <FontAwesomeIcon icon={faCode} size="xl" style={{ marginRight: "10px" }} />Projects
                                 </a>
                             </button>
 

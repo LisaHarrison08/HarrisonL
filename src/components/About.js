@@ -4,6 +4,7 @@ import profilePic from "../assets/profilePic.jpg"
 import { Button, Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+// import resume from "../assets/resume.pdf"
 // import './About.css';
 
 function About() {

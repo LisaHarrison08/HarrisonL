@@ -12,7 +12,6 @@ function ProjectCard(props) {
                 <Row>
                     <Col>
                         <Card className="card--image">
-                            {/* <a href={props.project.url} class="btn btn-secondary">View Website</a> */}
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/projects/" + props.project.image} />
                             <a className="btn-custom" href={props.project.url}>
                                 <FontAwesomeIcon icon={faEye} size="3x" />
