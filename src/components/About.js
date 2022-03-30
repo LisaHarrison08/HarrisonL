@@ -3,7 +3,7 @@ import Fade from "react-reveal";
 import profilePic from "../assets/profilePic.jpg"
 import { Button, Container, Col, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 // import './About.css';
 
 function About() {
@@ -30,7 +30,10 @@ function About() {
                         <Col xs={6} md={4}>
                             <div className="contact-details">
                                 <h2>Contact Me:</h2>
-                                <p>lmharrison0810@gmail.com</p>
+                                {/* <p>lmharrison0810@gmail.com</p> */}
+                                <Button className="contact-btn" href="mailto:lmharrison0810@gmail.com" variant="custom-btn" size="sm" >
+                                <FontAwesomeIcon icon={faEnvelope} size="xl" style={{ marginRight: "10px" }} /> Email
+                                </Button>
                             </div>
                         </Col>
                         <Col xs={12} md={8}>

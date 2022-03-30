@@ -126,9 +126,16 @@ button{
        text-align: left;
        padding-left:30px;
  }
+
+ .contact-details .contact-btn {
+    width: 180px;
+    margin-top: 20px;
+    background-color: rgb(230, 245, 245);
+ }
  
  #about .download{
     text-align: center;
+	padding:40px;
  }
 
  /* Portfolio Section */
@@ -146,10 +153,34 @@ button{
 	color: #95a3a3;
 }
 
-#portfolio .card--content{
+/* .card--content{
 border-radius: 55;
 width: 30vw;
 height: 10vh;
+} */
+
+
+/* Bootstrap button */
+
+/* #portfolio .btn-custom{
+	position: absolute;
+	width: 40px;
+    margin-top: 20px;
+	opacity:0.8;
+    background-color: #a7cfc9;
+	color:#01072e;
+	font-size: 20px;
+} */
+
+/* font-awesome icon */
+#portfolio .btn-custom{
+	position: absolute;
+	width: 70px;
+    margin-top: 20px;
+	opacity:0.8;
+    background-color: #a7cfc9;
+	color:#01072e;
+	font-size: 20px;
 }
 
 /* #portfolio .card--image {
@@ -157,6 +188,29 @@ height: 10vh;
     height:200px;
     border-radius: 5px; 
 } */
+
+/* Tech Section */
+
+#tech {
+	background: #f5f6f8;
+	padding-top: 76px;
+	padding-bottom: 76px;
+	height: 700px;
+	min-height: 500px;
+	width: 100%;
+}
+
+.tech--content h1 {
+	font: 'opensans-bold', sans-serif;
+	font-size: 20px;
+	color: rgb(24, 23, 23);
+	margin-bottom: 12px;
+	letter-spacing: 2px;
+}
+
+#tech .card--image{
+ 	width:75%	
+}
 
 /* Skills Section */
 #skills {
@@ -187,7 +241,8 @@ height: 10vh;
 }
 
 .icon-link{
-	padding-left:80px;
+	padding:40px;
+	padding-bottom: 20px;
 	color:white;
 }
 

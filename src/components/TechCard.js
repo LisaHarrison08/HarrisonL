@@ -6,7 +6,7 @@ import { Card, Col, Container, Row } from 'react-bootstrap'
 function TechCard(props) {
     return (
         <Container id="portfolio">
-            <Fade left duration={1000} distance="50px">
+            <Fade right duration={1000} distance="50px">
                 <Row>
                     <Col>
                         <Card className="card--image">

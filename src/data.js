@@ -18,7 +18,7 @@ export default [
         title: "Code Commit",
         category: "Coding commumity landing page",
         image: "code-commit.png",
-        url: "",
+        url: "https://code-commit.netlify.app/",
 
     },
     {

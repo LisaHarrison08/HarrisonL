@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import TechCard from './TechCard'
 import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap'
-import './Tech.css';
+// import './Tech.css';
 import Techdata from "../Techdata"
 
 function Tech() {
@@ -29,7 +29,6 @@ function Tech() {
             </Container>
         </section>
     )
-
 }
 
 export default Tech;
