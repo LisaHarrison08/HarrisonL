@@ -19,17 +19,7 @@ function About() {
                                 src={profilePic}
                                 alt="Lisa Profile Pic"
                             />
-                        </Col>
-                        <Col xs={12} md={8}>
-                            <div className="about-me">
-                                <h2>About</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xs={6} md={4}>
-                            <div className="contact-details">
+                             <div className="contact-details">
                                 <h2>Contact Me:</h2>
                                 {/* <p>lmharrison0810@gmail.com</p> */}
                                 <Button className="contact-btn" href="mailto:lmharrison0810@gmail.com" variant="custom-btn" size="sm" >
@@ -37,6 +27,26 @@ function About() {
                                 </Button>
                             </div>
                         </Col>
+                        <Col xs={12} md={8}>
+                            <div className="about-me">
+                                <h2>About</h2>
+                                <p>I’m a full-stack software engineer residing within the Northern Virginia Area.  Naturally inquisitive, I discovered coding and ventured down the rabbit hole and never looked back.  </p>
+                                <p> I love to get creative and enjoy nothing more than turning complex problems into simple, beautiful and intuitive designs. The ultimate goal is to build applications that users feel they simply cannot live without and never thought they needed. </p>
+                                <p>When i’m not pushing pixels and keyboard tapping, you’ll find me navigating the great outdoors hiking across mountains or motorcycling around them.</p>
+                            </div>
+                            
+                        </Col>
+                    </Row>
+                    <Row>
+                        {/* <Col xs={6} md={4}>
+                            <div className="contact-details">
+                                <h2>Contact Me:</h2> */}
+                                {/* <p>lmharrison0810@gmail.com</p> */}
+                                {/* <Button className="contact-btn" href="mailto:lmharrison0810@gmail.com" variant="custom-btn" size="sm" >
+                                <FontAwesomeIcon icon={faEnvelope} size="xl" style={{ marginRight: "10px" }} /> Email
+                                </Button> */}
+                            {/* </div>
+                        </Col> */}
                         <Col xs={12} md={8}>
                             <div className="download" id="resume">
                                 <Button href="" variant="custom" size="sm" >
