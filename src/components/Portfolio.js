@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import ProjectCard from './ProjectCard'
-import { Card, CardGroup, Container, Col, Row } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import data from "../data"
 
 function Portfolio() {
@@ -10,7 +10,7 @@ function Portfolio() {
         <Container id="portfolio">
             <h1>Check out my work</h1>
         
-                <Row xs={1} md={4} className="g-4">
+                <Row xs={1} md={3} className="g-4">
                     {items.map((project, index) => (
                        <ProjectCard project={project} key={project.id}/>
                     ))}

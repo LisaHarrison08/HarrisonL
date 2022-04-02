@@ -10,7 +10,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col text-center">
-                        <a href="mailto:l----@gmail.com" id="contact" className="icon-link">
+                        <a href="mailto:lmharrison0810@gmail.com" id="contact" className="icon-link">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" />
                         </a>
                         <a href="https://github.com/" className="icon-link">

@@ -1,8 +1,8 @@
 import React from 'react';
 import Fade from "react-reveal";
 import { Button, Card, Col, Container, Row } from 'react-bootstrap'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 function ProjectCard(props) {
     return (
@@ -13,14 +13,16 @@ function ProjectCard(props) {
                     <Col>
                         <Card className="card--image">
                             <Card.Img variant="top" src={process.env.PUBLIC_URL + "/images/projects/" + props.project.image} />
-                            <a className="btn-custom" href={props.project.url}>
+                            {/* <a className="btn-custom" href={props.project.url}>
                                 <FontAwesomeIcon icon={faEye} size="3x" />
-                            </a>
+                            </a> */}
 
                             {/* <Button href={props.project.url} variant="custom">View</Button> */}
-                            {/* <Card.Body>
+                            <Card.Body>
                                 <Card.Title>{props.project.title}</Card.Title>
-                            </Card.Body> */}
+                                <Card.Text>{props.project.description}</Card.Text>
+                                <Button className="project--button" href={props.project.url}variant="primary">View Live &rarr;</Button>
+                            </Card.Body>
                         </Card>
                     </Col>
                 </Row>

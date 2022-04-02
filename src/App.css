@@ -175,6 +175,17 @@ width: 30vw;
 height: 10vh;
 } */
 
+.card--image{
+	width:100%;
+	border:none;
+	/* border-color:#e3ebef ;
+	border-radius: 10%; */
+}
+
+.project--button{
+	background-color: #2bac96;
+	border-radius: 10%;
+}
 
 /* Bootstrap button */
 

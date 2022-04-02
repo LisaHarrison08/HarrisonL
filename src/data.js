@@ -2,21 +2,21 @@ export default [
     {
         id: 1,
         title: "Aurora",
-        category: "Winery website",
+        description: "Elegantly designed winery website. Video featured on each page load, reservation and events booking.",
         image: "aurora.jpg",
         url: ""
     },
     {
         id: 2,
         title: "Peak Hikes",
-        category: "An adventure travel booking website",
+        description: "Modern & responsive adventure travel booking website.",
         image: "peak-hikes.jpg",
         url: ""
     },
     {
         id: 3,
         title: "Code Commit",
-        category: "Coding commumity landing page",
+        description: "Modern landing page for a developer community. Responsive design and membership form for visiting users. Built with MERN stack.",
         image: "codecommit.jpg",
         url: "https://code-commit.netlify.app/",
 
@@ -24,14 +24,14 @@ export default [
     {
         id: 4,
         title: "Covid Trends",
-        category: "Data dashboard includes visualizations generated through plotly, d3 and tableau",
+        description: "A data dashboard designed to display the mobility trends during the beginning of the pandemic. Visualizations populated with plotly, d3 and tableau",
         image: "covid-trends.jpg",
         url: "https://covid-trends-us.herokuapp.com/index.html"
     },
     {
         id: 5,
         title: "Covid Predictions",
-        category: "Dashboard contains charts reviewing COVID data and predicted trends across the US",
+        description: "Data dashboard includes visualizations of the impact of the pandemic and the predicted impact of access to medical equipment across the US",
         image: "covid-predictions.jpg",
         url: "https://covid-us.herokuapp.com/index.html"
 
