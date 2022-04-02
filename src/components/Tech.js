@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 import TechCard from './TechCard'
 import { Container, Col, Row } from 'react-bootstrap'
-// import './Tech.css';
 import Techdata from "../Techdata"
 
 function Tech() {

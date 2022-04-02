@@ -150,11 +150,6 @@ button{
     background-color: rgb(230, 245, 245);
  }
  
- #about .download{
-    text-align: right;
-	margin-right: 60px;
- }
-
  /* Portfolio Section */
  #portfolio {
 	margin-top: 20px;
