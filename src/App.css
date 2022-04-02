@@ -104,16 +104,15 @@ button{
 
 #about {
     background: #01072e;
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 60px;
-    height: 700px;
-     min-height: 500px;
      width: 100%;
  }
   
  #about h2 {
     font: 24px/30px 'opensans-bold', sans-serif;
     color: #fff;
+	padding-top: 40px;
     margin-bottom: 12px;
     letter-spacing:2px;
  }
@@ -128,8 +127,8 @@ button{
  #about .profile-pic {
     width: 180px;
     height: 180px;
-    padding:10px;
-    margin:20px;
+	margin-top:60px;
+	margin-left: 20px;
     border-radius:15%;
  }
   
@@ -206,8 +205,6 @@ button{
 	background: #f5f6f8;
 	padding-top: 76px;
 	padding-bottom: 76px;
-	height: 700px;
-	min-height: 500px;
 	width: 100%;
 }
 
@@ -220,7 +217,7 @@ button{
 }
 
 #tech .card--image{
- 	width:75%	
+ 	width:75%;
 }
 
 /* Skills Section */
