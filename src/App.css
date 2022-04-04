@@ -83,7 +83,7 @@ button{
 /* Navigation */
 .justify-content-center{
     background-color: black;
-    height:20px;
+    /* height:20px; */
     letter-spacing: 2px;
 }
 
@@ -208,7 +208,7 @@ button{
 	width: 100%;
 }
 
-.tech--content h1 {
+#tech h1 {
 	font: 'opensans-bold', sans-serif;
 	font-size: 20px;
 	color: rgb(24, 23, 23);
@@ -216,8 +216,15 @@ button{
 	letter-spacing: 2px;
 }
 
-#tech .card--image{
- 	width:75%;
+.tech--image{
+ 	width:60%;
+}
+
+.tech--items{
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content: center;
 }
 
 /* Skills Section */

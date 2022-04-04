@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from "react-bootstrap"
 function Navigation() {
     return (
         <nav>
-            <Navbar className="justify-content-center" fixed="top" activeKey="/home">
+            <Navbar className="justify-content-center" expand="md" fixed="top" activeKey="/home">
                 <Nav.Link href="#home" className="nav-home">Home</Nav.Link>
                 <Nav.Link href="#about" className="nav-items">About</Nav.Link>
                 <Nav.Link href="#resume" className="nav-items">Resume</Nav.Link>
