@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row } from "react-bootstrap"
 import video from "../assets/video/aurora.mp4"
@@ -22,9 +22,11 @@ const Header = () => {
                         <Fade bottom duration={1000}>
                             <h3>Full Stack Web Developer <br></br> Javascript | React | React Native<br></br>  Node.js | Express | MongoDB | PostgreSQL</h3>
                         </Fade>
+                        <Fade>
+                            
+                        </Fade>
                         < hr /> {/* <horizontal rule> used to seperate content */}
-                        <Fade bottom duration={2000}>
-
+                        <Fade bottom duration={3000}>
                             <button style={{ marginRight: "20px" }}>
                                 <a href="#portfolio" className="btn project-btn">
                                     <FontAwesomeIcon icon={faCode} size="xl" style={{ marginRight: "10px" }} />Projects

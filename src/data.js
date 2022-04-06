@@ -4,7 +4,7 @@ export default [
         title: "Aurora",
         description: "Elegantly designed winery website. Video featured on each page load, reservation and events booking.",
         image: "aurora.jpg",
-        url: ""
+        url: "https://aurora-winery.netlify.app/"
     },
     {
         id: 2,
