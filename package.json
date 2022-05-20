@@ -16,7 +16,6 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.24.0",
     "bootstrap": "5.1.3",
-    "core-js": "^3.22.5",
     "font-awesome": "^4.7.0",
     "particles-bg": "^2.5.5",
     "react": "^16.14.0",
