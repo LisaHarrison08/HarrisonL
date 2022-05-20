@@ -35,5 +35,13 @@ export default [
         image: "covid-predictions.jpg",
         url: "https://covid-us.herokuapp.com/index.html"
 
+    },
+    {
+        id: 6,
+        title: "Beanz",
+        description: "A clean and simple design built with React. Coffee shop website aptly named Beanz",
+        image: "beanz.png",
+        url: ""
+
     } 
 ]
