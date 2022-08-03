@@ -92,11 +92,11 @@ button{
 }
 
 .nav-items:hover{
-    color:rgb(81, 136, 110);
+    color:#51886e;
 }
 
 .nav-home{
-    color:rgb(202, 94, 21);
+    color:#ca5e15;
     font-weight:bold;
 }
 
@@ -125,17 +125,17 @@ button{
  }
  
  #about .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
 	margin-top:60px;
 	margin-left: 20px;
     border-radius:15%;
  }
   
  #about .btn-custom {
-    width: 300px;
+    width: 70%;
     margin-top: 20px;
-    background-color: aqua;
+    background-color: #2bac96;
  }
  
  #about .contact-details{
@@ -146,7 +146,7 @@ button{
  .contact-details .contact-btn {
     width: 180px;
     margin-top: 20px;
-    background-color: rgb(230, 245, 245);
+    background-color: #e6f5f5;
  }
  
  /* Portfolio Section */
