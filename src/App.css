@@ -110,7 +110,7 @@ button{
  }
   
  #about h2 {
-    font: 24px/30px 'opensans-bold', sans-serif;
+    font: 24px/30px "Kaushan Script", cursive;
     color: #fff;
 	padding-top: 40px;
     margin-bottom: 12px;
@@ -144,7 +144,7 @@ button{
  }
 
  .contact-details .contact-btn {
-    width: 180px;
+    width: 70%;
     margin-top: 20px;
     background-color: #e6f5f5;
  }
@@ -156,7 +156,7 @@ button{
 }
 
 #portfolio h1 {
-	font: 15px/24px 'opensans-semibold', sans-serif;
+	font-family:"Kaushan Script", cursive;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-align: center;

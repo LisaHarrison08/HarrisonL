@@ -9,7 +9,7 @@ export default [
     {
         id: 2,
         title: "Beanz",
-        description: "A clean and simple design built with React. Coffee shop website aptly named Beanz",
+        description: "A clean and simple design built with React. Coffee shop website aptly named Beanz. This project was designed and built in collaboration with another awesome nucamp grad!",
         image: "beanz.png",
         url: "https://github.com/LisaHarrison08/beanz"
 
