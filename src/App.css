@@ -1,17 +1,5 @@
 /* Header */
 
-/* Header Image Styling */
-/* header {
-	position: relative;
-	height: 900px;
-	min-height: 500px;
-	width: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(./assets/aurora.jpg) no-repeat top center;
-	background-size: cover !important;
-	text-align: center;
-	overflow: hidden;
-} */
-
 header{
 	text-align: center;
 	overflow: hidden;
@@ -31,8 +19,8 @@ header video {
 
 header .banner-text {
 	position: absolute;
-	top: 20%;
-	/* left: 50%; */
+	top: 60%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 }
 
@@ -57,6 +45,18 @@ header .banner-text hr {
 	width: 40%;
 	margin: 18px auto 24px auto;
 	color: antiquewhite;
+}
+
+button{
+	/* display: inline-block; */
+	/* text-decoration: none; */
+	/* letter-spacing: 0; */
+	padding: 0;
+	margin:0;
+	border-radius:5%;
+	border: none;
+	cursor: pointer;
+	height: auto;
 }
 
 button{
